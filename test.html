@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sarah.js Test</title>
+        <style>
+            body{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                min-height: 95vh;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sarah.js</h1>
+        <hr>
+        <h3>A test</h3>
+        <p>Open the inspector and look for errors there and try some functions</p>
+        <script src="./dist_lib/sarah.browser.js"></script>
+        <img src="" alt="Sarah.js logo.">
+
+        <script>
+            // import jquery
+            SarahJS.webNodeInterop.require("https://code.jquery.com/jquery-3.6.0.js");
+
+            // monkey patch extensions
+            SarahJS.monkeyPatchExtensions();
+        </script>
+    </body>
+</html>
