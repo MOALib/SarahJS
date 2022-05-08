@@ -1,9 +1,13 @@
 {
-  "name": "sarah.js",
+  "name": "sarahjs",
   "version": "1.0.0",
   "description": "why, tools",
   "main": "Src/sarah.js",
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MOALib/SarahJS"
+  },
   "scripts": {
     "start": "node .",
     "test": "mocha Src/test.js",
